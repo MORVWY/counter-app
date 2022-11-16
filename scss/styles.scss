@@ -6,15 +6,16 @@ body {
 .header {
     &__logo {
         padding: 15px;
-        font-weight: 600;
-        font-size: 3rem;
         position: fixed;
         left: 0;
         top: 0;
 
         a {
+            font-weight: 600;
+            font-size: 4rem;
+            font-family: 'Allura', cursive;
             text-decoration: solid;
-            color: inherit;
+            color: #B83B5E;
         }
     }
 }
@@ -54,11 +55,46 @@ body {
             align-items: center;
         }
 
+        &__increase {
+            &-item {
+                img {
+                    transform: rotate(-90deg);
+                }
+            }
+        }
+
+        &__decrease {
+            &-item {
+                img {
+                    transform: rotate(90deg);
+                }
+            }
+        }
+
         button {
             padding: 0;
             border: none;
             background: none;
             cursor: pointer;
+        }
+
+        p {
+            margin-top: 25px;
+            font-size: 1.5rem;
+            color: #B83B5E;
+        }
+    }
+
+    &-credits {
+        padding: 15px;
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        color: #393E46;
+
+        a {
+            text-decoration: none;
+            color: #B83B5E;
         }
     }
 }
