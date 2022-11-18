@@ -9,14 +9,11 @@ body {
         position: fixed;
         left: 0;
         top: 0;
-
-        a {
-            font-weight: 600;
-            font-size: 4rem;
-            font-family: 'Allura', cursive;
-            text-decoration: solid;
-            color: #B83B5E;
-        }
+        font-weight: 600;
+        font-size: 4rem;
+        font-family: 'Allura', cursive;
+        user-select: none;
+        color: #B83B5E;
     }
 }
 
@@ -33,6 +30,7 @@ body {
         font-weight: 700;
         font-size: 5rem;
         color: #B83B5E;
+        user-select: none;
     }
 
     &-number {
@@ -40,6 +38,7 @@ body {
         font-size: 10rem;
         margin-top: 50px;
         color: #B83B5E;
+        user-select: none;
     }
 
     &-alert {
@@ -92,15 +91,8 @@ body {
             }
         }
 
-        &__reset {
-            &-item {
-                img {}
-            }
-        }
-
         &__decrease {
             &-item {
-                img {}
 
                 img:hover {
                     transform: translateY(5px);
@@ -163,9 +155,7 @@ body {
 
     .header {
         &__logo {
-            a {
-                font-size: 3rem;
-            }
+            font-size: 3rem;
         }
     }
 
@@ -190,9 +180,7 @@ body {
 
     .header {
         &__logo {
-            a {
-                font-size: 2.5rem;
-            }
+            font-size: 2.5rem;
         }
     }
 
