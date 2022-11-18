@@ -56,7 +56,7 @@ body {
         height: 50px;
         background-color: #B83B5E;
         right: 1%;
-        top: 20%;
+        top: 28%;
         border-radius: 10px;
         box-shadow: rgba(229, 10, 72, 0.1) 0px 4px 12px;
         color: white;
@@ -156,5 +156,59 @@ body {
 
     to {
         transform: rotate(-180deg);
+    }
+}
+
+@media (max-width: 992px) {
+
+    .header {
+        &__logo {
+            a {
+                font-size: 3rem;
+            }
+        }
+    }
+
+    .main {
+        &-counter {
+            font-size: 4rem;
+        }
+
+        &-number {
+            font-size: 8rem;
+        }
+
+        &-buttons {
+            p {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+
+    .header {
+        &__logo {
+            a {
+                font-size: 2.5rem;
+            }
+        }
+    }
+
+    .main {
+        &-counter {
+            font-size: 3.5rem;
+        }
+
+        &-number {
+            font-size: 7rem;
+        }
+
+        &-buttons {
+            p {
+                font-size: 1.1rem;
+            }
+        }
     }
 }
