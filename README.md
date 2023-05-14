@@ -2,6 +2,7 @@
 MAIN INFORMATION
 -------------------------------------------------------------------------
 Counter app where you can increase/decrease numbers.
+
 MAIN FEATURES
 -------------------------------------------------------------------------
 1. Increase/decrease counter.
